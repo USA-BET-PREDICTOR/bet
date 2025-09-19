@@ -90,10 +90,10 @@
         var outcomes = ["HOME OR AWAY", "OVER 1.5", "1ST HALF UNDER 2.5"];
         var randomIndex = Math.floor(Math.random() * outcomes.length);
         var suggestedOutcome = outcomes[randomIndex];
-        var Team1 = Math.floor(Math.random() * 17) + 1;
-        var Team2 = Math.floor(Math.random() * 13) + 1;
-        var shotsOnTargetTeam1 = Math.floor(Math.random() * 5);
-        var shotsOnTargetTeam2 = Math.floor(Math.random() * 4);
+        var Team1 = Math.floor(Math.random() * 10) + 1;
+        var Team2 = Math.floor(Math.random() * 10) + 1;
+        var shotsOnTargetTeam1 = Math.floor(Math.random() * 6);
+        var shotsOnTargetTeam2 = Math.floor(Math.random() * 5);
 
         var result = 'Shots Attempt: ' + team1 + ' ' + Team1 + ' - ' + Team2 + ' ' + team2 + '<br>' +
                      'Shots On Target: ' + team1 + ' ' + shotsOnTargetTeam1 + ' - ' + shotsOnTargetTeam2 + ' ' + team2;
@@ -120,5 +120,6 @@
 </footer>
 </body>
 </html>
+
 
 
